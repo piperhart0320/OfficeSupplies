@@ -1,11 +1,11 @@
 public class File 
 {
     private String color; 
-    private int number;  
+    private int IDnumber;  
 
-    public File(int number, String color)
+    public File(String color, int IDnumber)
     {
-        this.number = number; 
+        this.IDnumber = IDnumber; 
         this.color = color; 
     }
 
@@ -13,8 +13,8 @@ public class File
     {
         return color; 
     }
-    public int getNumber()
+    public int getIDNumber()
     {
-        return number; 
+        return IDnumber; 
     }
 }
